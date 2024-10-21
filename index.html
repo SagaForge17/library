@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>404 | SagaForge</title>
+    <title>Library | SagaForge</title>
     <style>
 /* width */
 ::-webkit-scrollbar {
@@ -136,6 +136,25 @@
       		text-decoration: none;
       		color: #333;
       	}
+      	.window button {
+      		background: linear-gradient(to bottom, #f3f3f3, #e1e1e1);
+            border: 1px solid #a1a1a1;
+            border-radius: 5px;
+            box-shadow: inset 0 1px 0 #fff, 0 1px 2px rgba(0, 0, 0, 0.2);
+            color: #333;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            padding: 10px 20px;
+            text-shadow: 0 1px 0 #fff;
+      	}
+      	.window button:hover {
+      		background: linear-gradient(to bottom, #e1e1e1, #f3f3f3);
+            cursor: pointer;
+      	}
+      	.window button:active {
+      		background: linear-gradient(to bottom, #d1d1d1, #e1e1e1);
+            box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+      	}
     </style>
     <style>
         body, html {
@@ -212,8 +231,15 @@
     <font size="3">This is where you can find all of the games released on this platform.</font>
     </div>
     <div class="window"><br>
-    <font size="6">Moto X3M Games:</font><br><br>
-    <font>Game</font>
+    <font size="6">Moto X3M Games:</font><br>
+    <div style="padding-right:10px;padding-left:10px;margin-top:5px;">
+    <button onclick="motoX3m()" style="margin-top:10px;">Moto X3M</button>
+    <button onclick="motoX3m2()" style="margin-top:10px;">Moto X3M 2</button>
+    <button onclick="motoX3m3()" style="margin-top:10px;">Moto X3M 3</button>
+    <button onclick="motoX3m4()" style="margin-top:10px;">Moto X3M 4 Winter</button>
+    <button onclick="motoX3m5()" style="margin-top:10px;">Moto X3M 5 Pool Party</button>
+    <button onclick="motoX3m6()" style="margin-top:10px;">Moto X3M 6 Spooky Land</button>
+	</div>
     </div>
   </center>
 </div>
@@ -247,6 +273,26 @@
       	function libraryMenu() {
       		window.open("https://sagaforge17.github.io/library/", "_self");
       	}
+    </script>
+    <script>
+function motoX3m() {
+    window.open("https://sagaforge17.github.io/library/moto-x3m/", "_self");
+}
+function motoX3m2() {
+    window.open("https://sagaforge17.github.io/library/moto-x3m/2/", "_self");
+}
+function motoX3m3() {
+    window.open("https://sagaforge17.github.io/library/moto-x3m/3/", "_self");
+}
+function motoX3m4() {
+    window.open("https://sagaforge17.github.io/library/moto-x3m/4-winter/", "_self");
+}
+function motoX3m5() {
+    window.open("https://sagaforge17.github.io/library/moto-x3m/5-pool-party/", "_self");
+}
+function motoX3m6() {
+    window.open("https://sagaforge17.github.io/library/moto-x3m/6-spooky-land/", "_self");
+}
     </script>
 </body>
 </html>
